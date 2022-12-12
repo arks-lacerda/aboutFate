@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-primary-color: hsl(0, 0%, 100%,);
+  --color-secondary: #3F3D56;
+  --color-primary: #828282;
+  --bg-footer-color: #3F3D56;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 6.4rem;
+  font-size: 1.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 63rem;
+  height: 48.6rem;
+  align-items: center;
+  text-align: center;
+  
+  color: var(--color-primary);
+  font-weight: 400;
+}
+
+h1 {
+  margin-top: 3.2rem;
+  margin-bottom: 1.6rem;
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  font-size: 3.2rem;
+  color: var(--color-secondary);
+  line-height: 4rem;
+}
+
+span {
+  color: var(--color-secondary);
+  font-weight: 700;
+}
+
+h1 span {
+  color: #EE24FF;
+}
+
+p {
+  max-width: 54rem;
+  line-height: 2.2rem;
+}
+
+main p  + p {
+  margin-top: 3.2rem;
+}
+
+footer {
+  margin-top: 6.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  width: 39.1rem;
+  border-top: 1px solid #ECEFF2;
+  margin-bottom: 1.6rem;
+}
+
+ul {
+  color: var(--color-secondary);
+  font-weight: 700;
+  font-size: "Open Sans", san-serif;
+  display: flex;
+  justify-content: center;
+  gap: 4.2rem;
+  list-style: none;
+  margin-bottom: 4rem;
+}
+
+.wave {
+  position: absolute;
+  top: 67.4rem;
+  left: 0;
+  width: 100%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
